@@ -17,7 +17,9 @@
 
 ## Quem somos
 
-O Venus é um projeto acadêmico desenvolvido por estudantes do Instituto J&F Germinare. Hoje ele não tem finalidade comercial: não vendemos nada, não veiculamos publicidade e não comercializamos dados. Mas temos planos de levar o Venus adiante.
+<img src="https://raw.githubusercontent.com/Venus-System/.github/main/profile/veninha.png" alt="Veninha pulando de alegria" width="170" align="right">
+
+O Venus é um projeto acadêmico desenvolvido por estudantes do Instituto J&F Germinare Tech. Hoje ele não tem finalidade comercial: não vendemos nada, não veiculamos publicidade e não comercializamos dados. Mas temos planos de levar o Venus adiante.
 
 O Venus lê a lista de ingredientes de um cosmético e explica, em português simples, o que cada ingrediente faz para a sua pele, para o meio ambiente e para quem produz. Quando você preenche um perfil, a análise passa a considerar as suas características.
 
@@ -182,4 +184,4 @@ venussystem2026@gmail.com
 
 É um projeto acadêmico, desenvolvido por estudantes como trabalho escolar. Não é um produto comercial, não tem garantia de funcionamento contínuo e pode sair do ar a qualquer momento.
 
-Responsável pelo tratamento dos dados: Equipe do projeto Venus, estudantes do Instituto J&F Germinare.
+Responsável pelo tratamento dos dados: Equipe do projeto Venus, estudantes do Instituto J&F Germinare Tech.
