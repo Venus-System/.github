@@ -19,7 +19,7 @@
 
 <img src="https://raw.githubusercontent.com/Venus-System/.github/main/profile/veninha.png" alt="Veninha pulando de alegria" width="170" align="right">
 
-O Venus é um projeto acadêmico desenvolvido por estudantes do Instituto J&F Germinare Tech. Hoje ele não tem finalidade comercial: não vendemos nada, não veiculamos publicidade e não comercializamos dados. Mas temos planos de levar o Venus adiante.
+O Venus é um projeto acadêmico desenvolvido por estudantes do Instituto J&F Germinare Tech, sem finalidade comercial. Não vendemos nada, não veiculamos publicidade e não comercializamos dados.
 
 O Venus lê a lista de ingredientes de um cosmético e explica, em português simples, o que cada ingrediente faz para a sua pele, para o meio ambiente e para quem produz. Quando você preenche um perfil, a análise passa a considerar as suas características.
 
@@ -27,6 +27,7 @@ O Venus lê a lista de ingredientes de um cosmético e explica, em português si
 
 <details open>
 <summary><b>1. Você monta o seu perfil</b></summary>
+<br>
 
 No primeiro acesso você responde um questionário sobre a sua pele e o seu cabelo: tipo de pele, acne, rosácea, eczema, manchas, melasma e couro cabeludo. Também conta se está gestante ou amamentando, quais alergias tem e o que prefere evitar (por exemplo, produto vegano, cruelty-free, sem parabeno, sem sulfato ou sem silicone). É esse perfil que deixa a análise pessoal.
 
@@ -34,6 +35,7 @@ No primeiro acesso você responde um questionário sobre a sua pele e o seu cabe
 
 <details open>
 <summary><b>2. Você escaneia o produto (OCR)</b></summary>
+<br>
 
 No app, você tira duas fotos: o verso, onde está a lista de ingredientes, e a frente, onde estão a marca e o nome. Antes de ler, o app confere se a foto não está tremida, escura demais ou clara demais. O texto das fotos é lido no próprio celular com OCR (ML Kit, do Google), e o app separa os ingredientes do resto do rótulo.
 
@@ -45,6 +47,7 @@ No site, dá para mandar a foto pelo navegador: o OCR roda ali mesmo (Tesseract.
 
 <details open>
 <summary><b>3. A equipe revisa os produtos novos</b></summary>
+<br>
 
 O produto que ainda não está no catálogo fica guardado no MongoDB até alguém da equipe abrir a fila no painel do admin, no site. Lá dá para conferir os ingredientes lidos, aprovar ou recusar. Quando é aprovado, o produto entra no catálogo do PostgreSQL e passa a valer para todo mundo.
 
@@ -52,6 +55,7 @@ O produto que ainda não está no catálogo fica guardado no MongoDB até algué
 
 <details open>
 <summary><b>4. A Venus calcula a nota de 0 a 100</b></summary>
+<br>
 
 A nota sai de duas partes:
 
@@ -64,6 +68,7 @@ A qualidade vale até 35 pontos e o perfil até 65. Depois entram as travas: se 
 
 <details open>
 <summary><b>5. A Venus conversa com você (chatbot)</b></summary>
+<br>
 
 No app tem a Venus, uma assistente que responde sobre produtos, ingredientes, a sua rotina e dúvidas gerais. Por trás ela é um sistema de vários agentes (LangGraph):
 
@@ -79,6 +84,7 @@ Na rotina, ela monta os passos com os seus favoritos, avisa quando dois ativos n
 
 <details open>
 <summary><b>6. O que mais dá para fazer</b></summary>
+<br>
 
 - Buscar produtos com filtros, como ingrediente, vegano, cruelty-free e marca nacional, sem precisar acertar acento.
 - Comparar dois produtos lado a lado, com as quatro notas e os alertas de cada fórmula.
