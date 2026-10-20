@@ -127,7 +127,7 @@ flowchart TB
     ia --> mongo
 ```
 
-> [!IMPORTANT]
+> [!IMPORTANTE]
 > **O Venus não substitui profissional de saúde.**
 >
 > As análises do Venus são informativas. Elas não diagnosticam, não tratam e não substituem a avaliação de um dermatologista ou de qualquer profissional de saúde.
